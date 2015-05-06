@@ -9,22 +9,11 @@
 /* Begin PBXBuildFile section */
 		92B00E011AFA92E70025535D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B00E001AFA92E70025535D /* main.m */; };
 		92B00E041AFA92E70025535D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B00E031AFA92E70025535D /* AppDelegate.m */; };
-		92B00E071AFA92E70025535D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B00E061AFA92E70025535D /* ViewController.m */; };
-		92B00E0A1AFA92E70025535D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92B00E081AFA92E70025535D /* Main.storyboard */; };
-		92B00E0C1AFA92E70025535D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92B00E0B1AFA92E70025535D /* Images.xcassets */; };
-		92B00E0F1AFA92E70025535D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92B00E0D1AFA92E70025535D /* LaunchScreen.xib */; };
-		92B00E1B1AFA92E70025535D /* GradientsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B00E1A1AFA92E70025535D /* GradientsTests.m */; };
+		92B00E271AFA93240025535D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B00E251AFA93240025535D /* ViewController.m */; };
+		92B00E281AFA93240025535D /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92B00E261AFA93240025535D /* View.xib */; };
+		92B00E2B1AFA93AB0025535D /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B00E2A1AFA93AB0025535D /* GradientView.m */; };
+		92B00E2F1AFA93BE0025535D /* GradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B00E2E1AFA93BE0025535D /* GradientLayer.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		92B00E151AFA92E70025535D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 92B00DF31AFA92E70025535D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 92B00DFA1AFA92E70025535D;
-			remoteInfo = Gradients;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		92B00DFB1AFA92E70025535D /* Gradients.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gradients.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,25 +21,17 @@
 		92B00E001AFA92E70025535D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		92B00E021AFA92E70025535D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		92B00E031AFA92E70025535D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		92B00E051AFA92E70025535D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		92B00E061AFA92E70025535D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		92B00E091AFA92E70025535D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		92B00E0B1AFA92E70025535D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		92B00E0E1AFA92E70025535D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		92B00E141AFA92E70025535D /* GradientsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradientsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		92B00E191AFA92E70025535D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		92B00E1A1AFA92E70025535D /* GradientsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradientsTests.m; sourceTree = "<group>"; };
+		92B00E241AFA93240025535D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		92B00E251AFA93240025535D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		92B00E261AFA93240025535D /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		92B00E291AFA93AB0025535D /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
+		92B00E2A1AFA93AB0025535D /* GradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientView.m; sourceTree = "<group>"; };
+		92B00E2D1AFA93BE0025535D /* GradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientLayer.h; sourceTree = "<group>"; };
+		92B00E2E1AFA93BE0025535D /* GradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		92B00DF81AFA92E70025535D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		92B00E111AFA92E70025535D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -64,7 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				92B00DFD1AFA92E70025535D /* Gradients */,
-				92B00E171AFA92E70025535D /* GradientsTests */,
 				92B00DFC1AFA92E70025535D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				92B00DFB1AFA92E70025535D /* Gradients.app */,
-				92B00E141AFA92E70025535D /* GradientsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,11 +62,13 @@
 			children = (
 				92B00E021AFA92E70025535D /* AppDelegate.h */,
 				92B00E031AFA92E70025535D /* AppDelegate.m */,
-				92B00E051AFA92E70025535D /* ViewController.h */,
-				92B00E061AFA92E70025535D /* ViewController.m */,
-				92B00E081AFA92E70025535D /* Main.storyboard */,
-				92B00E0B1AFA92E70025535D /* Images.xcassets */,
-				92B00E0D1AFA92E70025535D /* LaunchScreen.xib */,
+				92B00E241AFA93240025535D /* ViewController.h */,
+				92B00E251AFA93240025535D /* ViewController.m */,
+				92B00E291AFA93AB0025535D /* GradientView.h */,
+				92B00E2A1AFA93AB0025535D /* GradientView.m */,
+				92B00E2D1AFA93BE0025535D /* GradientLayer.h */,
+				92B00E2E1AFA93BE0025535D /* GradientLayer.m */,
+				92B00E261AFA93240025535D /* View.xib */,
 				92B00DFE1AFA92E70025535D /* Supporting Files */,
 			);
 			path = Gradients;
@@ -98,23 +79,6 @@
 			children = (
 				92B00DFF1AFA92E70025535D /* Info.plist */,
 				92B00E001AFA92E70025535D /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		92B00E171AFA92E70025535D /* GradientsTests */ = {
-			isa = PBXGroup;
-			children = (
-				92B00E1A1AFA92E70025535D /* GradientsTests.m */,
-				92B00E181AFA92E70025535D /* Supporting Files */,
-			);
-			path = GradientsTests;
-			sourceTree = "<group>";
-		};
-		92B00E181AFA92E70025535D /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				92B00E191AFA92E70025535D /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -139,24 +103,6 @@
 			productReference = 92B00DFB1AFA92E70025535D /* Gradients.app */;
 			productType = "com.apple.product-type.application";
 		};
-		92B00E131AFA92E70025535D /* GradientsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 92B00E211AFA92E70025535D /* Build configuration list for PBXNativeTarget "GradientsTests" */;
-			buildPhases = (
-				92B00E101AFA92E70025535D /* Sources */,
-				92B00E111AFA92E70025535D /* Frameworks */,
-				92B00E121AFA92E70025535D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				92B00E161AFA92E70025535D /* PBXTargetDependency */,
-			);
-			name = GradientsTests;
-			productName = GradientsTests;
-			productReference = 92B00E141AFA92E70025535D /* GradientsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,10 +114,6 @@
 				TargetAttributes = {
 					92B00DFA1AFA92E70025535D = {
 						CreatedOnToolsVersion = 6.3.1;
-					};
-					92B00E131AFA92E70025535D = {
-						CreatedOnToolsVersion = 6.3.1;
-						TestTargetID = 92B00DFA1AFA92E70025535D;
 					};
 				};
 			};
@@ -189,7 +131,6 @@
 			projectRoot = "";
 			targets = (
 				92B00DFA1AFA92E70025535D /* Gradients */,
-				92B00E131AFA92E70025535D /* GradientsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -199,16 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92B00E0A1AFA92E70025535D /* Main.storyboard in Resources */,
-				92B00E0F1AFA92E70025535D /* LaunchScreen.xib in Resources */,
-				92B00E0C1AFA92E70025535D /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		92B00E121AFA92E70025535D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				92B00E281AFA93240025535D /* View.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,48 +151,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92B00E071AFA92E70025535D /* ViewController.m in Sources */,
+				92B00E271AFA93240025535D /* ViewController.m in Sources */,
+				92B00E2F1AFA93BE0025535D /* GradientLayer.m in Sources */,
 				92B00E041AFA92E70025535D /* AppDelegate.m in Sources */,
+				92B00E2B1AFA93AB0025535D /* GradientView.m in Sources */,
 				92B00E011AFA92E70025535D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92B00E101AFA92E70025535D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				92B00E1B1AFA92E70025535D /* GradientsTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		92B00E161AFA92E70025535D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 92B00DFA1AFA92E70025535D /* Gradients */;
-			targetProxy = 92B00E151AFA92E70025535D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		92B00E081AFA92E70025535D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				92B00E091AFA92E70025535D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		92B00E0D1AFA92E70025535D /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				92B00E0E1AFA92E70025535D /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		92B00E1C1AFA92E70025535D /* Debug */ = {
@@ -365,40 +264,6 @@
 			};
 			name = Release;
 		};
-		92B00E221AFA92E70025535D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = GradientsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gradients.app/Gradients";
-			};
-			name = Debug;
-		};
-		92B00E231AFA92E70025535D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = GradientsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gradients.app/Gradients";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -416,14 +281,6 @@
 			buildConfigurations = (
 				92B00E1F1AFA92E70025535D /* Debug */,
 				92B00E201AFA92E70025535D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		92B00E211AFA92E70025535D /* Build configuration list for PBXNativeTarget "GradientsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				92B00E221AFA92E70025535D /* Debug */,
-				92B00E231AFA92E70025535D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  GradientView.h
 //  Gradients
 //
 //  Created by Anthony Mattox on 5/6/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface GradientView : UIView
 
 @end
